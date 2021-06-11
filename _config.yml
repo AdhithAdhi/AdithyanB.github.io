@@ -52,8 +52,12 @@ education:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - adhithadhi/DefendTheInvaders
  - AdhithAdhi/DefendTheInvaders
+
+#Stackoverflow flair is optional
+stackoverflow:
+   profileurl: https://www.linkedin.com/in/adhithyan-b-794b27165/
+   flairimageurl: https://media-exp1.licdn.com/dms/image/C4E03AQG0PIoy0D9izA/profile-displayphoto-shrink_400_400/0/1549435635180?e=1628726400&v=beta&t=aqY3dRjciqC1HOzWN60oVv-schM5d8DCzBTZIsQxCv8
 
 intro: |
 
