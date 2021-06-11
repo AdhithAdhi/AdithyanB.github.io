@@ -1,16 +1,17 @@
-{% if site.stackoverflow %}
+{% if site.contactways %}
 	<div class="rounded_panel txt_lightgrey">
 		<div class="top-rounded-panel grey-bg">
 			<h1>Linked In</h1>
 		</div>
 		<div class="content-rounded-panel">
 			<div id="stackScore">
-				<a target='_blank' href="{{site.stackoverflow.profileurl}}">
-					<img src="{{site.stackoverflow.flairimageurl}}" width="400" height="400" 
+				<a target='_blank' href="{{site.contactways.profileurl}}">
+					<img src="{{site.contactways.flairimageurl}}" width="200" height="200" 
 						alt="profile at Linked In, Q&amp;A for professional and enthusiast programmers" 
 						title="profile at Linked In, Q&amp;A for professional and enthusiast programmers">
 				</a>
 			</div>
+			<a target='_blank' href="mailto:{{site.contactways.email}}">@{{site.contactways.email}}</a>
 		</div>
 	</div>
 {% endif %}
