@@ -52,9 +52,6 @@ education:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - robhinds/ScaLambda
- - robhinds/opinionated-akka-http
- - robhinds/food2vec
  - adhithadhi/DefendTheInvaders
  - AdhithAdhi/DefendTheInvaders
 
