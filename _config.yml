@@ -52,17 +52,11 @@ education:
 
 #List of interesting Github repo/projects to include - optional
 github:
- - adhithadhi/DefendTheInvaders
- - AdhithAdhi/DefendTheInvaders
  - robhinds/ScaLambda
  - robhinds/opinionated-akka-http
  - robhinds/food2vec
- - robhinds/microservices
- - robhinds/spring-social-geeklist
- - robhinds/spring-social-stackoverflow
- - robhinds/genotype
- - robhinds/footweets
- - robhinds/ElasticSearchGradle
+ - adhithadhi/DefendTheInvaders
+ - AdhithAdhi/DefendTheInvaders
 
 intro: |
 
