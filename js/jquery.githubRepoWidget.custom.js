@@ -61,7 +61,7 @@
 							repoUrl = "http://github.com/" + vendor + '/' + repo.name;
 
 						var $widget = $(
-							'<div class="github-box repo">'
+							'<div class="card card-primary card-outline">'
 							+'<div class="github-box-title">'
 							+'<h3>'
 							+'<a class="owner" href="' + vendorUrl + '" title="' + vendorUrl + '">' + vendor + '</a>'
