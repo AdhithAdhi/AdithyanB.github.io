@@ -77,9 +77,9 @@
 							+'<p class="description"><span></span> &mdash; <a href="' + repoUrl + '#readme">Read More</a></p>'
 							+'<p class="link"></p>'
 							+'</div>'
-							+'<div class="btn btn-primary">'
+							+'<div class="card-footer">'
 							+'<div class="updated"></div>'
-							+'<a class="download" href="' + repoUrl + '/zipball/master" title="Get an archive of this repository">Download as zip</a>'
+							+'<a class="btn btn-primary" href="' + repoUrl + '/zipball/master" title="Get an archive of this repository">Download as zip</a>'
 							+'</div>'
 							+'</div>'
 						);
