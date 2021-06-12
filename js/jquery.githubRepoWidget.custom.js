@@ -70,7 +70,7 @@
 							+'</h3>'
 							+'<div class="card-tools">'
 							+'<a class="watchers" href="' + repoUrl + '/watchers" title="See watchers">?</a>'
-							+'<a class="forks" href="' + repoUrl + '/network/members" title="See forkers">?</a>'
+							+'<a class="forks" href="' + repoUrl + '/network/members" title="See forkers"><i class="fa fa-fw fa-code-fork"></i>?</a>'
 							+'</div>'
 							+'</div>'
 							+'<div class="card-body">'
