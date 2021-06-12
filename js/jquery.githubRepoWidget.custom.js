@@ -68,7 +68,7 @@
 							+'/'
 							+'<a class="repo" href="' + repoUrl + '" title="' + repoUrl + '">' + repo.name + '</a>'
 							+'</h3>'
-							+'<div class="github-stats">'
+							+'<div class="card-tools">'
 							+'<a class="watchers" href="' + repoUrl + '/watchers" title="See watchers">?</a>'
 							+'<a class="forks" href="' + repoUrl + '/network/members" title="See forkers">?</a>'
 							+'</div>'
