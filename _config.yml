@@ -77,3 +77,5 @@ additionalinfo: |
    <strong>Web Development</strong>: Through building web applications, I have also worked with various client/server side technology, having used jQuery, Bootstrap, Asp.Net Server pages and database implementation. More recently I have written React applications (primarily using the Create React App framework, and extending them)<br/><br/>
    I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, Xamarin, Windows/Linux Command Line applications, Google Firebase, Android OS Development, UI/UX GUI Designs, Etc.  <br/><br/>
    
+
+theme: jekyll-theme-cayman
