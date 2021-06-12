@@ -78,9 +78,9 @@
 							+'<p class="link"></p>'
 							+'</div>'
 							+'<div class="card-footer">'
-							+'<div class="row"><label class="updated"></label>'
-							+'<a class="btn btn-block btn-outline-primary float:right" href="' + repoUrl + '/zipball/master" title="Get an archive of this repository">Download as zip</a>'
-							+'</div></div>'
+							+'<label class="updated"></label>'
+							+'<a class="btn btn-outline-primary float-right" href="' + repoUrl + '/zipball/master" title="Get an archive of this repository">Download as zip</a>'
+							+'</div>'
 							+'</div>'
 						);
 
