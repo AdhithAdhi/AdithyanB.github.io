@@ -1,31 +1,32 @@
 {% if site.contactways %}
-	
-            <!-- Profile Image -->
-            <div class="card card-primary card-outline">
-              <div class="card-body box-profile">
-                <div class="text-center">
-                <a target='_blank' href="{{site.contactways.profileurl}}">
-                  <img class="profile-user-img img-fluid img-circle" src="{{site.contactways.flairimageurl}}" alt="Profile at Linked In">
-                  </a>
-                </div>
 
-                <h3 class="profile-username text-center">{{site.title}}</h3>
+<!-- Profile Image -->
+<div class="card card-primary card-outline">
+    <div class="card-body box-profile">
+        <div class="text-center">
+            <a target='_blank' href="{{site.contactways.profileurl}}">
+                <img class="profile-user-img img-fluid img-circle" src="{{site.contactways.flairimageurl}}" alt="Profile at Linked In">
+            </a>
+        </div>
 
-                <p class="text-muted text-center">{{site.designation}}</p>
+        <h3 class="profile-username text-center">{{site.title}}</h3>
 
-                <ul class="list-group list-group-unbordered mb-3">
-                  <li class="list-group-item">
-                    <a class="float-right" href="mailto:{{site.contactways.email}}">{{site.contactways.email}}</a>
-                  </li>
-                  <li class="list-group-item">
-                    <a class="float-right">{{site.contactways.phone}}</a>
-                  </li>
-                </ul>
+        <p class="text-muted text-center">{{site.designation}}</p>
 
-                <a href="{{site.contactways.profileurl}}" class="btn btn-primary btn-block"><b>Linked In</b></a>
-              </div>
-              <!-- /.card-body -->
-            </div>
-            <!-- /.card -->
+        <p class="text-muted">
+            <a class="float-right" href="mailto:{{site.contactways.email}}">{{site.contactways.email}}</a>
+        </p>
 
+        <hr>
+        <p class="text-muted">
+            <a class="float-right">{{site.contactways.phone}}</a>
+        </p>
+
+        <hr>
+
+        <a href="{{site.contactways.profileurl}}" class="btn btn-primary btn-block"><b>Linked In</b></a>
+    </div>
+    <!-- /.card-body -->
+</div>
+<!-- /.card -->
 {% endif %}
