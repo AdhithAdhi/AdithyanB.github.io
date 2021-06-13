@@ -3306,3 +3306,15 @@ html.maximized-card {
 .float-none {
   float: none !important;
 }
+
+.profile-user-img {
+  border: 3px solid #adb5bd;
+  margin: 0 auto;
+  padding: 3px;
+  width: 100px;
+}
+
+.profile-username {
+  font-size: 21px;
+  margin-top: 5px;
+}
