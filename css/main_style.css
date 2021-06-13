@@ -3772,3 +3772,14 @@ html.maximized-card {
   background-color: #1b1e21;
   border-color: #1b1e21;
 }
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible;
+}
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border: 0;
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+}
