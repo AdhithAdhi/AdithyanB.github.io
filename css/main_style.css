@@ -3318,3 +3318,115 @@ html.maximized-card {
   font-size: 21px;
   margin-top: 5px;
 }
+
+.text-bold, .text-bold.table td, .text-bold.table th {
+  font-weight: 700;
+}
+
+.text-xs {
+  font-size: 0.75rem !important;
+}
+
+.text-sm {
+  font-size: 0.875rem !important;
+}
+
+.text-md {
+  font-size: 1rem !important;
+}
+
+.text-lg {
+  font-size: 1.25rem !important;
+}
+
+.text-xl {
+  font-size: 2rem !important;
+}
+
+.text-lightblue {
+  color: #3c8dbc !important;
+}
+
+.text-navy {
+  color: #001f3f !important;
+}
+
+.text-olive {
+  color: #3d9970 !important;
+}
+
+.text-lime {
+  color: #01ff70 !important;
+}
+
+.text-fuchsia {
+  color: #f012be !important;
+}
+
+.text-maroon {
+  color: #d81b60 !important;
+}
+
+.text-blue {
+  color: #007bff !important;
+}
+
+.text-indigo {
+  color: #6610f2 !important;
+}
+
+.text-purple {
+  color: #6f42c1 !important;
+}
+
+.text-pink {
+  color: #e83e8c !important;
+}
+
+.text-red {
+  color: #dc3545 !important;
+}
+
+.text-orange {
+  color: #fd7e14 !important;
+}
+
+.text-yellow {
+  color: #ffc107 !important;
+}
+
+.text-green {
+  color: #28a745 !important;
+}
+
+.text-teal {
+  color: #20c997 !important;
+}
+
+.text-cyan {
+  color: #17a2b8 !important;
+}
+
+.text-white {
+  color: #ffffff !important;
+}
+
+.text-gray {
+  color: #6c757d !important;
+}
+
+.text-gray-dark {
+  color: #343a40 !important;
+}
+
+@media (min-width: 576px) {
+  .text-sm-left {
+    text-align: left !important;
+  }
+  .text-sm-right {
+    text-align: right !important;
+  }
+  .text-sm-center {
+    text-align: center !important;
+  }
+}
