@@ -74,12 +74,11 @@ intro: |
 #An additional info freetext section is optional at the bottom of the page - can be text or HTML
 additionalinfo: |
    <strong>C#(C-Sharp)</strong>: My current role uses C# as the primary language and have been building applications in C# for the last two years. I am familiar with a range of C# dotNet libraries.<br/><br/>
-   <strong>Shell Script</strong>: I am experienced in Linux Shell Coding as part of my course.<br/><br/>
-   <strong>Java</strong>: I am experienced in a variety of Java API’s and frameworks as part of my course.<br/><br/>
-   <strong>CryptoGraphy</strong>: I know various cryptographic methods like AES, DES, Tripple DES, RSA, etc as part of my course.<br/><br/>
-   <strong>PhP</strong>: I am experienced in a variety of PhP API’s and frameworks as part of my course.<br/><br/>
    <strong>Web Development</strong>: Through building web applications, I have also worked with various client/server side technology, having used jQuery, Bootstrap, Asp.Net Server pages and database implementation. More recently I have written React applications (primarily using the Create React App framework, and extending them)<br/><br/>
-   I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, Xamarin, Windows/Linux Command Line applications, Google Firebase, Android OS Development, UI/UX GUI Designs, Etc.  <br/><br/>
+   <strong>Java</strong>: I am experienced in a variety of Java API’s and frameworks as part of my course.<br/><br/>
+    <strong>PhP</strong>: I am experienced in a variety of PhP API’s and frameworks as part of my course.<br/><br/>
+   <strong>Shell Script</strong>: I am experienced in Linux Shell Coding as part of my course.<br/><br/>
+   <strong>CryptoGraphy</strong>: I know various cryptographic methods like AES, DES, Tripple DES, RSA, etc as part of my course.<br/><br/>I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, Xamarin, Windows/Linux Command Line applications, Google Firebase, Android OS Development, UI/UX GUI Designs, Etc.  <br/><br/>
    
 
 theme: jekyll-theme-merlot
