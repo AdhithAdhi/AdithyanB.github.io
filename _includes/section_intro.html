@@ -1,13 +1,16 @@
 {% if site.intro %}
-	<div id="introBubble" class="rounded_panel txt_lightgrey">
-		<div class="top-rounded-panel grey-bg">
-			<h1 id="user-intro">Introduction &amp; Background</h1>
-		</div>
-		<div class="content-rounded-panel">
-			<div id="introBlurb">
-				{{site.intro}}
-			</div>
-			<br>
-		</div>
-	</div>
+<div class="card card-primary card-outline">
+    <div class="card-header">
+
+        <h3>Introduction &amp; Background</h3>
+    </div>
+    <div class="card-body box-profile">
+
+
+        <p class="text-muted text-center">{{site.intro}}</p>
+
+    </div>
+    <!-- /.card-body -->
+</div>
+<!-- /.card -->
 {% endif %}

@@ -1,13 +1,16 @@
-<div id="skillsBubble" class="rounded_panel txt_lightgrey">
-	<div class="top-rounded-panel grey-bg">
-		<h1 id="user-skills">Areas of experience &amp; interest</h1>
-	</div>
-	<div class="content-rounded-panel">
+<div class="card card-primary card-outline">
+	<div class="card-header">
 
-		<div id="skills">
-			{% for skill in site.skills %}
-				<span class="label label-info label-padded"> {{skill}} </span> &nbsp;
-			{% endfor %}
-		</div>
+		<h3>Areas of experience &amp; interest</h3>
 	</div>
+	<div class="card-body ml-2">
+
+
+		{% for skill in site.skills %}
+		<span class="badge bg-info "> {{skill}} </span> &nbsp;
+		{% endfor %}
+
+	</div>
+	<!-- /.card-body -->
 </div>
+<!-- /.card -->
