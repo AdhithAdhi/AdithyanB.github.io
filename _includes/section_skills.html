@@ -1,17 +1,17 @@
 <div class="card card-primary card-outline">
 	<div class="card-header">
 
-		<h5>Areas of experience &amp; interest</h5>
+		<h5>Areas of &amp; interest</h5>
 	</div>
 	<div class="card-body m-2">
 
 
 		{% for skill in site.skills %}
 
-		<div class="progress mb-3">
+		<label class="text text-muted">{{skill.name}}</label>
+		<div class="progress progress-sm">
 
-			<label class="card-title">{{skill.name}}</label>
-			<div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{skill.value}}" style="width: 100%">
+			<div class="progress-bar bg-success progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{skill.value}}" style="width: {{skill.value}}%">
 			</div>
 		  </div>
 		{% endfor %}
