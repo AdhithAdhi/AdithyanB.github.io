@@ -1,8 +1,36 @@
 <footer>
 	<hr size="3">
-	{% if site.facebook_username %}
-		<p><a target='_blank' href="https://facebook.com/{{site.facebook_username}}">@{{site.facebook_username}}</a></p>
-	{% endif %}
-	<p>Kerala, Kollam</p>
-	<br>
+	<div class="mt-4 product-share">
+
+		{% if site.github_username %}
+
+		<a href="https://github.com/{{site.github_username}}" class="text-gray">
+			<i class="fab fa-github-square fa-2x"></i>
+		</a>
+		{% endif %}
+		{% if site.linkedin_username %}
+
+		<a href="https://linkedin.com/{{site.linkedin_username}}" class="text-gray">
+			<i class="fab fa-linkedin fa-2x"></i>
+		</a>
+		{% endif %}
+		{% if site.facebook_username %}
+
+		<a href="https://facebook.com/{{site.facebook_username}}" class="text-gray">
+			<i class="fab fa-facebook-square fa-2x"></i>
+		</a>
+		{% endif %}
+		{% if site.twitter_username %}
+
+		<a href="https://twitter.com/{{site.twitter_username}}" class="text-gray">
+			<i class="fab fa-instagram-square fa-2x"></i>
+		</a>
+		{% endif %}
+		{% if site.contactways.email %}
+
+		<a href="mailto:{{site.contactways.email}}" class="text-gray">
+			<i class="fab fa-envelope-square fa-2x"></i>
+		</a>
+		{% endif %}
+	</div>
 </footer>
