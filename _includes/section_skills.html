@@ -7,7 +7,13 @@
 
 
 		{% for skill in site.skills %}
-		<button class="btn btn-sm bg-info text-bold m-2"> {{skill}} </button> &nbsp;
+
+		<div class="progress mb-3">
+
+			<label class="card-title">{{skill.name}}</label>
+			<div class="progress-bar bg-success" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{skill.value}}" style="width: 100%">
+			</div>
+		  </div>
 		{% endfor %}
 
 	</div>

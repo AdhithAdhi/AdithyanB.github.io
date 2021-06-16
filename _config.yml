@@ -14,24 +14,23 @@ primarylinks:
    url: https://github.com/AdhithAdhi
  - title: LinkedIn
    url: https://www.linkedin.com/in/adhithyan-b-794b27165/
+
 #Any buzzword skills you want to include
 skills:
- - Unity3d
- - .NET Framework
- - C#
- - C++
- - Java
- - Visual Studio
- - Object-Oriented Programming (OOP)
- - SQL
- - Blender
- - Game Programming
- - Vulnerability
- - Cryptography
- - Linux
- - Network and System Security
- - Cyber Security
- - Shell Scripting
+ - name: Unity3d
+   value: 90
+ - name: C#
+   value: 90
+ - name: .NET Framework
+   value: 80
+ - name: SQL
+   value: 70
+ - name: C++
+   value: 60
+ - name: Java
+   value: 60
+ - name: Blender
+   value: 60
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
