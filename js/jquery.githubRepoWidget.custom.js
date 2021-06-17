@@ -79,7 +79,7 @@
 							+'</div>'
 							+'<div class="card-footer">'
 							+'<a class="btn btn-outline-primary float-right" href="' + repoUrl + '/zipball/master" title="Get an archive of this repository">Download as zip</a>'
-							+'<div class="updated"></div>'
+							+'<div class="updated text-sm"></div>'
 							+'</div>'
 							+'</div>'
 						);
@@ -94,7 +94,7 @@
 						$widget.find('.watchers').text(repo.watchers);
 						$widget.find('.forks').text(repo.forks);
 						$widget.find('.description span').text(repo.description);
-						$widget.find('.updated').html('Latest commit to the <strong>' + repo.default_branch + '</strong> branch on ' + pushed_at);
+						$widget.find('.updated').html('Latest commit to the <strong>' + repo.default_branch + '</strong></br>branch on ' + pushed_at);
 
 						// Don't show "null" if the repo has no homepage URL.
 						if(repo.homepage != null) $widget.find('.link').append($('<a />').attr('href', repo.homepage).text(repo.homepage));
