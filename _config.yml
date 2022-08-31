@@ -1,7 +1,7 @@
 # Site settings
 title: Adithyan B
 name: Adithyan B
-designation: Cyber Secrity
+designation: Cyber Security
 linkedin_username: adhithyan-b-794b27165
 github_username: AdhithAdhi
 reddit_username: Maximum-Gas-1448
@@ -25,20 +25,44 @@ intro: |
 
 #Any buzzword skills you want to include
 skills:
- - name: Unity3d
+ - name: Cyber Security
    value: 90
- - name: C#
+ - name: Security Tools
    value: 90
- - name: .NET Framework
+ - name: Security Analysis
    value: 80
- - name: SQL
+ - name: Network Security
    value: 70
- - name: C++
-   value: 60
- - name: Java
-   value: 60
- - name: Blender
-   value: 60
+ - name: IT Security
+   value: 70
+ - name: Information Security
+   value: 100
+ - name: Incident Management
+   value: 100
+ - name: Incident Response
+   value: 100
+ - name: Customer Service
+   value: 100
+ - name: Decision Making
+   value: 100
+ - name: Fast Learner
+   value: 100
+ - name: Teamwork
+   value: 100
+ - name: Adaptability
+   value: 100
+ - name: Leadership Skills
+   value: 100
+ - name: Ability to Multitask
+   value: 100
+ - name: Time Management
+   value: 100
+ - name: Ability to Work Under Pressure
+   value: 100
+ - name: Flexibility and Adaptability
+   value: 100
+ - name: Critical thinking and problem solving
+   value: 100
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
