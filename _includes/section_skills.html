@@ -8,8 +8,8 @@
 
 		{% for skill in site.skills %}
 
-		<label class="text text-muted">{{skill.name}}</label>
-		<div class="progress progress-sm">
+		<label class="text text-muted text-sm">{{skill.name}}</label>
+		<div class="progress progress-xs">
 
 			<div class="progress-bar bg-success progress-bar-striped" role="progressbar" aria-valuemin="0" aria-valuemax="100" aria-valuenow="{{skill.value}}" style="width: {{skill.value}}%">
 			</div>
