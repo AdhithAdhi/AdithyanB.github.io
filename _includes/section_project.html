@@ -6,14 +6,15 @@
         <div class="row">
             <div class="col-md-12">
                 <!-- The time line -->
-                {% for proj in site.project %}
 
                 <div class="timeline">
+
+                {% for proj in site.project %}
                     <!-- timeline time label -->
                     <!-- /.timeline-label -->
                     <!-- timeline item -->
                     <div>
-                        <i class="fas fa-gears bg-blue"></i>
+                        <i class="fas fa-bug bg-blue"></i>
                         <div class="timeline-item">
                             
                             <span class="time"><i class="fas fa-clock"></i> {{proj.date}}</span>
@@ -25,8 +26,8 @@
                         </div>
                     </div>
 
+                    {% endfor %}
                 </div>
-                {% endfor %}
 
             </div>
         </div>
