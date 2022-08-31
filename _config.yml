@@ -86,10 +86,13 @@ education:
    school: School of Technology and Applied Science (STAS), Pathanamthitta
    university: MG University
 
-#List of interesting Github repo/projects to include - optional
-github:
- - AdhithAdhi/DefendTheInvaders
- - AdhithAdhi/Maths-Infinity
+#Languages is required
+languages:
+ - lang: Malayalam
+   value: 100
+
+ - lang: English
+   value: 80
 
 #Stackoverflow flair is optional
 contactways:
@@ -100,17 +103,7 @@ contactways:
    
 intro: |
 
-  Accomplished Game Developer with expert game design skills, and game development proficiency seeks a creative role at a studio with a demonstrable focus and passion for crafting jaw-dropping online and mobile play experiences.<br/><br/>
-  I may not have a working experience but am ready to secure a position as a Game Developer in a fast growing gaming industry that creates and develops high tech games where skills and expertise can maximize potential growth.
-  I enjoy building interesting projects, with a good project Management focus.<br/><br/>
+  An experienced cyber security professional who  can protect and secure computer systems and data. We are dedicated to  providing security implementation support  including in-depth analysis,  planning and preparation.<br/><br/>
 
-#An additional info freetext section is optional at the bottom of the page - can be text or HTML
-additionalinfo: |
-   <strong>C#(C-Sharp)</strong>: My current role uses C# as the primary language and have been building applications in C# for the last two years. I am familiar with a range of C# dotNet libraries.<br/><br/>
-   <strong>Web Development</strong>: Through building web applications, I have also worked with various client/server side technology, having used jQuery, Bootstrap, Asp.Net Server pages and database implementation. More recently I have written React applications (primarily using the Create React App framework, and extending them)<br/><br/>
-   <strong>Java</strong>: I am experienced in a variety of Java API’s and frameworks as part of my course.<br/><br/>
-   <strong>PhP</strong>: I am experienced in a variety of PhP API’s and frameworks as part of my course.<br/><br/>
-   <br/>I have also gained experience and knowledge of other technologies from several side projects and research that I have undertaken in my free time, including Android, Xamarin, Windows/Linux Command Line applications, Google Firebase, Android OS Development, UI/UX GUI Designs, Etc.  <br/><br/>
-   
 
 theme: jekyll-theme-merlot
