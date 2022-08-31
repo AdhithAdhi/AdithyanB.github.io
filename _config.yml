@@ -89,10 +89,10 @@ education:
 #Languages is required
 languages:
  - lang: Malayalam
-   value: 100
+   value: 5
 
  - lang: English
-   value: 80
+   value: 4
 
 #Stackoverflow flair is optional
 contactways:
