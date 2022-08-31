@@ -45,7 +45,7 @@ blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
 
 
 #Projects is required
-prjoect:
+project:
  - p_title: Secure Banking using CaRP and Rabin Cryptosystem - 
    date: Mar, 2019
    discription: Many security primitives are based on hard mathematical problems. Using hard AI problems for security is emerging as an exciting new paradigm, but has been underexplored. In this paper, we present a new security primitive based on hard AI problems, namely, a novel family of graphical password systems built on top of Captcha technology, which we call Captcha as graphical passwords (CaRP). CaRP is both a Captcha and a graphical password scheme. CaRP is not a panacea, but it offers reasonable security and usability and appears to fit well with some practical applications for improving online security
