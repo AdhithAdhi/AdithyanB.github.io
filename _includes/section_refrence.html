@@ -1,0 +1,33 @@
+<div class="card card-primary card-outline">
+    <div class="card-header">
+        <h5>Activities</h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- The time line -->
+
+                <div class="timeline">
+
+                    {% for ref in site.reference %}
+                    <!-- timeline time label -->
+                    <!-- /.timeline-label -->
+                    <!-- timeline item -->
+                    <div>
+                        <i class="fas fa-paw bg-blue"></i>
+                        <div class="timeline-item">
+                            
+                            <h3 class="timeline-header"><a href="#">{{ref.name}}</a></h3>
+                            <div class="timeline-body">
+                                <i class="fas fa-clock"></i> {{ref.details}}
+                            </div>
+                        </div>
+                    </div>
+
+                    {% endfor %}
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
