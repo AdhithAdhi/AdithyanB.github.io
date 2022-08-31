@@ -120,6 +120,12 @@ activitiy:
  - name: National Service Scheme
    date: Jul, 2016 - Apr, 2019
    city: 
+
+
+#Reference is optional
+reference:
+ - name: 
+   details: Available upon request
    
 #Stackoverflow flair is optional
 contactways:
