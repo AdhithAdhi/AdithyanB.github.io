@@ -1,7 +1,7 @@
 # Site settings
 title: Adithyan B
 name: Adithyan B
-designation: Game Developer
+designation: Cyber Secrity
 linkedin_username: adhithyan-b-794b27165
 github_username: AdhithAdhi
 reddit_username: Maximum-Gas-1448
@@ -17,6 +17,11 @@ primarylinks:
    url: https://github.com/AdhithAdhi
  - title: LinkedIn
    url: https://www.linkedin.com/in/adithyan-b-794b27165/
+
+#intro or profile
+intro: |
+
+  An experienced cyber security professional who  can protect and secure computer systems and data. We are dedicated to  providing security implementation support  including in-depth analysis,  planning and preparation.<br/><br/>
 
 #Any buzzword skills you want to include
 skills:
@@ -37,6 +42,17 @@ skills:
 
 #Blogfeed is optional - including this will add JS to call the feed and populate blog list
 blogfeed: https://automateddeveloper.blogspot.com/feeds/posts/default?alt=json
+
+
+#Projects is required
+prjoect:
+ - p_title: Secure Banking using CaRP and Rabin Cryptosystem - 
+   date: Mar, 2019
+   discription: Many security primitives are based on hard mathematical problems. Using hard AI problems for security is emerging as an exciting new paradigm, but has been underexplored. In this paper, we present a new security primitive based on hard AI problems, namely, a novel family of graphical password systems built on top of Captcha technology, which we call Captcha as graphical passwords (CaRP). CaRP is both a Captcha and a graphical password scheme. CaRP is not a panacea, but it offers reasonable security and usability and appears to fit well with some practical applications for improving online security
+
+ - p_title: Anti-Phishing Website
+   date: Oct, 2018
+   discription: There are e- banking websites who ask users to provide sensitive data such as username, password or credit card details etc. often for malicious reasons. This type of e-banking website is known as a phishing website. In order to detect and predict e-banking phishing websites, we proposed an intelligent, flexible and effective system that is based on using classification Data mining algorithm.We implemented classification algorithm and techniques to extract the phishing data sets criteria to classify their legitimacy
 
 #Work experience is required
 work:
@@ -74,25 +90,26 @@ work:
 
 #Education is required
 education:
- - level: Bachelor of Science (B.Sc.)
-   date: 2016-2019
-   subject: Cyber Forensic
-   school: School of Technology and Applied Science (STAS), Pathanamthitta
-   university: MG University
-   
  - level: Master of Science (M.Sc.)
    date: 2020-2022
    subject: Cyber Forensic
    school: School of Technology and Applied Science (STAS), Pathanamthitta
    university: MG University
 
+ - level: Bachelor of Science (B.Sc.)
+   date: 2016-2019
+   subject: Cyber Forensic
+   school: School of Technology and Applied Science (STAS), Pathanamthitta
+   university: MG University
+   
+
 #Languages is required
 languages:
  - lang: Malayalam
-   value: 5
+   value: 100
 
  - lang: English
-   value: 4
+   value: 80
 
 #Stackoverflow flair is optional
 contactways:
@@ -101,9 +118,5 @@ contactways:
    email: adhithadhi007@gmail.com
    phone: +91 7907222956
    
-intro: |
-
-  An experienced cyber security professional who  can protect and secure computer systems and data. We are dedicated to  providing security implementation support  including in-depth analysis,  planning and preparation.<br/><br/>
-
 
 theme: jekyll-theme-merlot

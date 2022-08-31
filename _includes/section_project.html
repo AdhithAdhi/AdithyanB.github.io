@@ -1,0 +1,38 @@
+<div class="card card-primary card-outline">
+    <div class="card-header">
+        <h5>Projects</h5>
+    </div>
+    <div class="card-body">
+        <div class="row">
+            <div class="col-md-12">
+                <!-- The time line -->
+                {% for project in site.project %}
+
+                <div class="timeline">
+                    <!-- timeline time label -->
+                    <div class="time-label">
+                        <span class="bg-red">
+                            {{edu.p_title}}
+                        </span>
+                    </div>
+                    <!-- /.timeline-label -->
+                    <!-- timeline item -->
+                    <div>
+                        <i class="fas fa-gears bg-blue"></i>
+                        <div class="timeline-item">
+                            
+                            <span class="time"><i class="fas fa-clock"></i> {{project.date}}</span>
+                            <div class="timeline-body">
+                                <b class="text-muted">{{project.discription}}</b>
+                                <i class="m-1 info-box-number"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                {% endfor %}
+
+            </div>
+        </div>
+    </div>
+</div>
