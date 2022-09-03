@@ -80,7 +80,7 @@ project:
 
 #Work experience is required
 work:
- - j_title: Cyber Secrity Engineer
+ - j_title: Cyber Security Engineer
    employer: DxC Technology
    date: Sep, 2021 - Present
    city: Bangalore
@@ -128,7 +128,7 @@ reference:
 #Stackoverflow flair is optional
 contactways:
    profileurl: https://www.linkedin.com/in/adithyan-b-794b27165/
-   flairimageurl: https://raw.githubusercontent.com/AdhithAdhi/AdhithAdhi.github.io/master/img/1645098093496.jpg
+   flairimageurl: https://raw.githubusercontent.com/AdhithAdhi/AdhithAdhi.github.io/master/img/img.jpg
    email: adhithadhi007@gmail.com
    phone: +91 7907222956
    
