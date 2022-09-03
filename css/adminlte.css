@@ -34131,7 +34131,7 @@ a.close.disabled, a.disabled.mailbox-attachment-close {
 }
 
 .timeline {
-  margin: 0 0 45px;
+  margin: 0 0 0px;
   padding: 0;
   position: relative;
 }
