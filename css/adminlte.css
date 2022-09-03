@@ -45986,6 +45986,10 @@ blockquote.quote-gray-dark h6 {
   .table-responsive > .table tr td {
     white-space: normal !important;
   }
+  .pagebreak {
+    clear: both;
+    page-break-after: always;
+  }
 }
 
 .text-bold,
