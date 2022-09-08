@@ -8211,6 +8211,10 @@ button.bg-dark:hover {
         display: -ms-inline-flexbox !important;
         display: inline-flex !important
     }
+    .pagebreak {
+      clear: both;
+      page-break-after: always;
+    }
 }
 
 .embed-responsive {
